@@ -1,6 +1,7 @@
 name: wordpress-vinyl
 type: service
 from: vinyl
+fromVersion: "^1.0.0"
 title: Vinyl (WordPress)
 
     
