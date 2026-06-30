@@ -3,7 +3,6 @@ type: service
 from: vinyl
 title: Vinyl (WordPress)
 
-update: auto
     
 labels:
 - wordpress
