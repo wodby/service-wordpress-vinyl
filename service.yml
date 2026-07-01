@@ -2,10 +2,10 @@ name: wordpress-vinyl
 type: service
 from: vinyl
 fromVersionConstraint: "^1.0.0"
-fromVersion: "1.0.0"
+fromVersion: "1.0.1"
 title: Vinyl (WordPress)
 
-    
+
 labels:
 - wordpress
 - varnish
