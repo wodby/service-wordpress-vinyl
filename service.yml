@@ -2,7 +2,7 @@ name: wordpress-vinyl
 type: service
 from: vinyl
 fromVersionConstraint: "^1.0.0"
-fromVersion: "1.0.4"
+fromVersion: "1.0.5"
 title: Vinyl (WordPress)
 
 
@@ -13,9 +13,11 @@ labels:
 
 configs:
 - name: wordpress
-  title: Drupal preset
+  title: WordPress preset
   filepath: /etc/gotpl/preset/wordpress.vcl.tmpl
-  config: wordpress.vcl.tmpl
+  default:
+    source: image
+    filepath: /etc/gotpl/presets/wordpress.vcl.tmpl
 
 env:
 - name: VARNISH_CONFIG_PRESET
