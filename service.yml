@@ -14,7 +14,7 @@ labels:
 configs:
 - name: wordpress
   title: WordPress preset
-  filepath: /etc/gotpl/preset/wordpress.vcl.tmpl
+  filepath: /etc/gotpl/presets/wordpress.vcl.tmpl
   default:
     source: image
     filepath: /etc/gotpl/presets/wordpress.vcl.tmpl
